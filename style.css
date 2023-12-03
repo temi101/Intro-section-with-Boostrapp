@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cc-container{
+    width: 100%;
+    padding: 1rem 0 4rem;
+}
+.cc-text1{
+    width: 100%;
+}
+
+@media (min-width:768px){
+    .cc-container{
+        width: 75%;
+        padding: 4rem 0;
+    }
+    .cc-text1{
+        width: 80%;
+    }
+
+}
